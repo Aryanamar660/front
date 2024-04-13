@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+.part-1 {
+  height: 500px;
+  width: 350px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  transform: translate(8%, -50%);
+}
+
+.title > h1 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Staatliches", cursive;
+}
+
+.title > p {
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+}
+
+.image {
+  margin-right: 25px;
+}
+
+.button {
+  /* background-color: #ddd; */
+  border: 2px solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.post-item {
+  align-self: center;
+  /* margin-bottom: 2%; */
+}
+.About {
+  background-color: #7ae1f182;
+}
+.About > h1 {
+  margin-left: 2%;
+  font-family: "Staatliches", cursive;
+}
+
+.total-inspiration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.inspiration {
+  /* margin: 5% 0px; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* width: 500px; */
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.section-white{
+  background: #fff;
+  padding : 70px 0;
+
+}
+
+.team-item{
+  background: #f4f5f6;
+  text-align: center;
+  margin: 20px 0;
+  padding: 50px 20px 40px 20px;
+  border-radius: 8px 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover{
+  background: #bcbcec;
+}
+
+.team-info{
+display: block;
+margin-bottom: 0;
+}
+
+.team-info p{
+  color: #2e186a;
+  font-style: italic;
+}
+
+.team-info::after{
+background: #008aff;
+
+}
+
+.team-img{
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color: #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.team-item h3{
+  margin: 20px 0 1px 0 !important;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.section-heading {
+  color: #2e186a;
+  margin: auto;
+  font-size: 2.575rem;
+  padding: 0.5rem 0;
+  /* font-size: 30px; */
+  font-family: "Staatliches", cursive;
+  border-bottom: 3px solid #2e186a;
+}
+
+.inspiration > p {
+  padding: 1.5rem 0;
+}
+
+.btn-custom {
+  margin: auto;
+  background-color: #2e186a;
+  color: white;
+  margin: 2%;
+}
+.btn-custom:hover {
+  color: white;
+}
+.total-about {
+  margin-top: 10%;
+}
+.total-about > .section-heading {
+  text-align: center;
+}
+
+.about-heading {
+  width: max-content;
+  margin: auto;
+}
+
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  justify-content: space-around;
+}
+
+.info {
+  text-align: center;
+  box-shadow: 0px 5px 25px 0px rgb(204 204 204 / 75%);
+  max-width: 385px;
+}
+
+p {
+  color: rgb(52, 61, 72);
+  font-size: 1.125rem;
+}
+
+.total-contact-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5%;
+}
+
+.contact-title > .section-heading {
+  width: fit-content;
+  margin: 0;
+}
+.contact-title {
+  margin: 0px 25px;
+}
+
+.contact-form {
+  flex-grow: 2;
+  margin-right: 25px;
+}
+
+.contact-title > p {
+  max-width: 560px;
+}
+.developer-img {
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 1020px) {
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .developer-img {
+    /* display: none; */
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .info {
+    margin: 10px 0px;
+  }
+}
+
+.personal-info {
+  background-color: #2e186a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.personal-info p{
+  color: white;
+}
+
+
+
+

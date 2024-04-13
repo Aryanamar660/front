@@ -1,0 +1,201 @@
+.box-container{
+    margin: 0 auto;
+}
+.heading{
+    color: #2e186a;
+    margin: 0 auto;
+    font-size: 2.575rem;
+    padding: 0.5rem 0;
+    font-family: "Staatliches", cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading span{
+    display: inline-block; 
+    border-bottom: 3px solid #2e186a;
+}
+.headingtext{
+    color: #2e186a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feed-header {
+    background-color: #f77f6a; 
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    width: 70%;
+    margin: 0 auto;
+}
+.feedtext{
+    color: #2e186a;
+    margin: 0 auto;
+    font-size: 2.575rem;
+    padding: 0.1rem 0;
+    font-family: "Staatliches", cursive;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.btnn{
+    padding: 10px 20px;
+    background: #f77f6a;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.btnn:hover{
+background: #2e186a;
+}
+
+.options select,
+.options input,
+.options button {
+    margin-right: 10px; 
+}
+.feedbox {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f77f6a; 
+    padding: 20px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+  .feedbox:hover {
+    box-shadow: 0 0 20px #f77f6a; 
+  }
+  .ptext{
+    font-weight: 500;
+    color: #2e186a;
+    font-family: cursive;
+    text-align: center;
+  }
+  .phead{
+    position: relative;
+    width: 100%; 
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0.3px;
+  }
+  .left-text{
+    padding: 10px;
+    background: #f77f6a;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #2e186a;
+  }
+
+.right-text {
+    padding: 10px; 
+    font-weight: bold;
+    color: #2e186a;
+}
+.picture-container {
+    width: 50%;
+    height: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.picture-container img {
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 10px; 
+}
+.btnnclaim{
+    padding: 10px 20px;
+    background: #42aa26;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    
+}
+.btncontain{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.left-text1{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #2e186a;
+  }
+
+.right-text1{
+    padding: 10px; 
+    font-weight: bold;
+    color: #2e186a;
+}
+.btnndelete{
+    padding: 10px 20px;
+    background: #f82600;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative; 
+    margin-left: 6px;
+}
+.pheadnew{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-text12,
+.right-text12,
+.middle-text12{
+    flex: 1;
+    text-align: center; 
+    font-weight: bold;
+    color: #2e186a;
+}
+.middle-text12{
+    flex-grow: 2; 
+}
+.btnnwarning{
+    padding: 10px 20px;
+    background: #e4ad2d;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.btnnprogress{
+    padding: 10px 20px;
+    background: #2697ba;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    margin-left: 6px;
+}
+.btnnclaimed{
+    padding: 10px 20px;
+    background: #aaa59a;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
